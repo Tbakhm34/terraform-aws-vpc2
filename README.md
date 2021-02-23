@@ -1,5 +1,5 @@
 #Used to create VPC
-...
+'''
 module "three-tier" {
   source        = "../"
   region        = "us-east-1"
@@ -32,4 +32,4 @@ output "private" {
 output "region" {
     value = module.three-tier.region
 }
-...
+'''
